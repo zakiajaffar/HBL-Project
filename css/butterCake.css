@@ -2571,7 +2571,8 @@ pre {
     color: white; }
   .accordion-container.default .active {
     border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0; }
+    border-bottom-right-radius: 0;
+    padding-bottom: 13px; }
   .accordion-container.default .accordion:after {
     content: "\f078";
     color: white;
@@ -2585,7 +2586,7 @@ pre {
     content: "\f077"; }
   .accordion-container.default .panel-box {
     background-color: #10333a;
-    padding: 15px 20px;
+    padding: 0px 20px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px; }
   .accordion-container .panel {
@@ -2630,4 +2631,8 @@ ul{
 }
 .app .default .panel-box {
   background-color: #06262c!important;
+}
+.border{
+  border:2px solid #06262c;
+  border-bottom: none;
 }
