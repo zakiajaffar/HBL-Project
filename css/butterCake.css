@@ -2611,28 +2611,4 @@ pre {
     color: black;
     content: "/"; }
 
-.para{
-  font-size: 12px;
-}
-.accordion{
-  text-transform: uppercase !important;
-  letter-spacing: 1px;
-  font-size: 14px;
-  font-weight: bold;
-color: #f1ecec !important;
-}
-
-li{
-  font-size: 12px;
-}
-
-ul{
-  margin: 0px;
-}
-.app .default .panel-box {
-  background-color: #06262c!important;
-}
-.border{
-  border:2px solid #06262c;
-  border-bottom: none;
 }
